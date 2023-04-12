@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+h1 {
+	text-align: center;
+	margin: 20px auto;
+	font-family: 'Alkatra', cursive;
+	font-size: 40px;
+}
+
+body{
+	margin: auto 60px;
+}
+
+textarea {
+	min-width: 100%;
+	min-height: 400px;
+	
+
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+/*更新とログアウト*/
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+li {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin: 10px;
+}
+.inline {
+	text-align: center;
+}
+.inline li {
+	display: inline;
+}
+
+/*更新とログアウトのボタン*/
+
+.button {
+	display: inline-block;
+	border-radius: 5%;
+	/* 角丸       */
+	font-size: 7pt;
+	/* 文字サイズ */
+	text-align: center;
+	/* 文字位置   */
+	cursor: pointer;
+	/* カーソル   */
+	padding: 12px 12px;
+	/* 余白       */
+	background: #000000;
+	/* 背景色     */
+	color:#ffffff;
+	/* 文字色     */
+	line-height: 1em;
+	/* 1行の高さ  */
+	transition: .3s;
+	/* なめらか変化 */
+	box-shadow: 6px 6px 3px #666666;
+	/* 影の設定 */
+	border: 2px solid #000000;
+	/* 枠の指定 */
+	margin-top: 6px;
+}
+.button:hover {
+	box-shadow: none;
+	/* カーソル時の影消去 */
+	color: #000000;
+	/* 背景色     */
+	background: #ffffff;
+	/* 文字色     */
+}
+
+
+/*selectボックス*/
+.selectbox-003 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.selectbox-003::after {
+    position: absolute;
+    right: 15px;
+    width: 10px;
+    height: 7px;
+    background-color: #535353;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: '';
+    pointer-events: none;
+}
+
+.selectbox-003 select {
+    appearance: none;
+    min-width: 230px;
+    height: 2.8em;
+    padding: .4em calc(.8em + 30px) .4em .8em;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #333333;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+/*投稿button*/
+.button {
+	display: inline-block;
+	border-radius: 5%;
+	/* 角丸       */
+	font-size: 11pt;
+	/* 文字サイズ */
+	text-align: center;
+	/* 文字位置   */
+	cursor: pointer;
+	/* カーソル   */
+	padding: 12px 12px;
+	/* 余白       */
+	background: #000000;
+	/* 背景色     */
+	color:#ffffff;
+	/* 文字色     */
+	line-height: 1em;
+	/* 1行の高さ  */
+	transition: .3s;
+	/* なめらか変化 */
+	box-shadow: 6px 6px 3px #666666;
+	/* 影の設定 */
+	border: 2px solid #000000;
+	/* 枠の指定 */
+	margin-top: 20px;
+}
+.button:hover {
+	box-shadow: none;
+	/* カーソル時の影消去 */
+	color: #000000;
+	/* 背景色     */
+	background: #ffffff;
+	/* 文字色     */
+}

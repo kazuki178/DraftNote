@@ -12,8 +12,8 @@ import model.TextData;
 
 public class TextDAO {
 	//データベース接続に使用する情報
-	private final String JDBC_URL = "jdbc:h2:~/public";
-	private final String DB_USER = "sa";
+	private final String JDBC_URL = "";
+	private final String DB_USER = "";
 	private final String DB_PASS = "";
 
 	public List<TextData> findAll() {
